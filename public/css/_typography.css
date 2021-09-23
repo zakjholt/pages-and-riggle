@@ -1,0 +1,94 @@
+/* .font-size-sm {
+} */
+
+.font-size-md {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.font-size-lg {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.font-size-xl {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.font-size-xxl {
+  font-size: 6rem;
+  line-height: 1.5;
+}
+
+.font-weight-thin {
+  font-weight: 300;
+}
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-semi {
+  font-weight: 600;
+}
+
+/* .font-weight-bold {
+} */
+
+/* Families  */
+
+.font-family-body {
+  font-family: Barlow, sans-serif;
+}
+
+.font-family-body-secondary {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-family-brand {
+  font-family: Abel, sans-serif;
+}
+
+.font-family-special {
+  font-family: "Fredericka the Great", cursive;
+}
+
+/* Colors */
+
+.color-primary-yellow {
+  color: var(--primary-yellow);
+}
+
+.color-primary-red {
+  color: var(--primary-red);
+}
+
+.color-white {
+  color: white;
+}
+
+/* Responsiveness */
+
+html {
+  font-size: 8px;
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 6px;
+  }
+}

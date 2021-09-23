@@ -1,0 +1,63 @@
+.vstack > *:not(:last-child) {
+  margin-bottom: var(--space, 8px);
+}
+
+.hstack > *:not(:last-child) {
+  margin-right: var(--space, 8px);
+}
+
+.stack-sm {
+  --space: 8px;
+}
+.stack-md {
+  --space: 16px;
+}
+.stack-lg {
+  --space: 24px;
+}
+.stack-xl {
+  --space: 48px;
+}
+@media screen and (max-width: 992px) {
+  .stack-sm {
+    --space: 8px;
+  }
+  .stack-md {
+    --space: 16px;
+  }
+  .stack-lg {
+    --space: 24px;
+  }
+  .stack-xl {
+    --space: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stack-sm {
+    --space: 8px;
+  }
+  .stack-md {
+    --space: 16px;
+  }
+  .stack-lg {
+    --space: 24px;
+  }
+  .stack-xl {
+    --space: 48px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .stack-sm {
+    --space: 8px;
+  }
+  .stack-md {
+    --space: 12px;
+  }
+  .stack-lg {
+    --space: 16px;
+  }
+  .stack-xl {
+    --space: 24px;
+  }
+}

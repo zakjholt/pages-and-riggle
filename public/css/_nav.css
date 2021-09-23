@@ -1,0 +1,42 @@
+.navbar {
+  height: var(--nav-height);
+  background-color: var(--primary-yellow);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-content {
+  padding: 0 16px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+}
+
+.nav-brand {
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-links {
+    display: flex;
+  }
+}

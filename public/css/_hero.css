@@ -1,0 +1,41 @@
+.hero-content {
+  margin: 0 auto;
+}
+
+.hero-cta {
+  width: 100%;
+}
+
+.hero-bottom {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  overflow: visible;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 186px;
+  }
+
+  .hero-content {
+    padding-top: 120px;
+  }
+
+  .hero-cta {
+    width: initial;
+  }
+
+  .hero-bottom {
+    flex-direction: row;
+    height: 224px;
+    margin-top: 88px;
+  }
+
+  .hero-graphic {
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    width: 600px;
+  }
+}
